@@ -1,0 +1,5 @@
+<Files *.log>
+	Order deny,allow
+	Deny from all
+	Allow from 83.236.134.122
+</Files>
