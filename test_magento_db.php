@@ -1,4 +1,7 @@
 <?php
+ignore_user_abort(true);
+set_time_limit(0);
+
 ini_set('error_reporting', E_ALL);
 error_reporting(1);
 error_reporting(E_ALL);
