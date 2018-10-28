@@ -39,6 +39,9 @@ while( $customer = mysql_fetch_assoc( $get_customers ) ) {
 
 	{
 
+		
+//Please Change/Update to MySQLi		
+		
 mysql_query('update
 `'.EKOMI_DB_TABLE.'`
 SET
